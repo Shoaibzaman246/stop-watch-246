@@ -1,0 +1,21 @@
+button{
+    color:#fff !important ;
+    background-color:  #000 !important;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+}
+.backimage{
+    background-image: url(./image/024-preview.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+   background-attachment: fixed;
+   height: 400px; 
+   
+}
+span{
+ color: black !important;
+}

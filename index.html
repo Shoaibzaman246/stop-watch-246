@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <title>Stop Watch</title>
+</head>
+<body>
+   <div class="container pt-2 mt-2">
+       <div class="row">
+           <div class="col mx-auto text-center">
+               <h1 ><b>Stop Watch</b></h1>
+
+           </div>
+
+       </div>
+
+   </div>
+
+   <!-- numbers -->
+   <div class="backimage">
+   <div class="container   pt-2 mt-2  "> 
+       <div class="row pt-5 mt-5 ">
+           
+           <div class="col pt-5 mt-5  mx-auto text-center  ">
+               <span class="display-2 pr-2" id="min"><b>0</b> </span> <span class="display-2 ">:</span>
+               <span  class="display-2 pr-2" id="sec"> <b>0</b> </span><span class="display-2 ">:</span>
+               <span class="display-2 pr-2" id="milisec"> <b>0</b> </span>
+           </div>
+           
+
+       </div>
+
+   </div>
+
+
+
+  <!-- buttons -->
+  <div class="container pt-2 mt-2">
+    <div class="row mx-auto text-center">
+        
+        <div class="col"><button  onclick="start()" type="button" class="btn btn-dark btn-lg  " ><h2>Start</h2></button>
+        <button  onclick="stop()" type="button" class="btn btn-dark btn-lg " ><h2>Pause</h2></button> 
+      <button  onclick="Reset()" type="button" class="btn btn-dark btn-lg  " ><h2>Reset</h2></button> </div>
+        
+        
+
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
